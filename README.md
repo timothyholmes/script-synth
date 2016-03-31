@@ -2,14 +2,6 @@
 
 Web based synthesizer.
 
-## Contents
-
-+ src/
-+ package.json
-+ gulpfile.js
-+ .gitignore
-+ README.md
-
 ## Building
 
 Instructions intended for Linux users. Mac users may need to prefix these comands with the 'sudo' keyword.

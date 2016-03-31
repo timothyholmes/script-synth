@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700);
+
+$shadow: 1px 1px 1px 1px #888888;
+
+html body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #ffffff;
+}
+
+h1 {
+	font-weight: 900;
+}
+
+h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+
+.keyboard {
+	background-color: #8E9BC1;
+	width: 90vw;
+	margin-left: 5vw;
+	height: 50vh;
+	margin-top: 10vh;
+	box-shadow: $shadow;
+}
