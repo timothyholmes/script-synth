@@ -22,16 +22,51 @@ h2, h3, h4, h5, h6 {
 	left: 5vw;
 	height: 50vh;
 	top: 10vh;
-	box-shadow: $shadow;
-	z-index: 0;
+	z-index: -1;
+	.controls {
+		background-color: #43E492;
+		position: absolute;
+		z-index: 1;
+		width: 90vw;
+		height: 20vh;
+	}
+}
+
+.keyboard-volume {
+	background-color: transparent;
+	position: absolute;
+	width: 78vw;
+	left: 5vw;
+	height: 40vh;
+	top: 60vh;
+  	border-left: 100px solid transparent;
+  	border-right: 100px solid transparent;
+  	border-bottom: 100px solid transparent;
+ 	border-top: 45px solid #69738F;
 }
 
 .key {
-	position: relative;
+	position: absolute;
 	background-color: #DFA0A0;
 	width: 9vw;
 	height: 30vh;
-	z-index:1l
+	z-index:0;
+}
+
+.key-bottom {
+	position: absolute;
+	background-color: #DFA0A0;
+	width: 9vw;
+	height: 30vh;
+	z-index:0;
+}
+
+.key-right {
+	position: absolute;
+	background-color: #DFA0A0;
+	width: 9vw;
+	height: 30vh;
+	z-index:0;
 }
 
 /** Individual keys */
