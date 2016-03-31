@@ -24,11 +24,16 @@ h2, h3, h4, h5, h6 {
 	top: 10vh;
 	z-index: -1;
 	.controls {
-		background-color: #43E492;
+		background-color: transparent;
 		position: absolute;
 		z-index: 1;
+		left: -6vw;
 		width: 90vw;
 		height: 20vh;
+  		border-left: 100px solid transparent;
+  		border-right: 100px solid transparent;
+  		border-bottom: 100px solid transparent;
+ 		border-top: 200px solid #69738F;
 	}
 }
 
