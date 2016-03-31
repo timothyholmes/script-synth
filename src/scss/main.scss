@@ -17,9 +17,61 @@ h2, h3, h4, h5, h6 {
 
 .keyboard {
 	background-color: #8E9BC1;
+	position: absolute;
 	width: 90vw;
-	margin-left: 5vw;
+	left: 5vw;
 	height: 50vh;
-	margin-top: 10vh;
+	top: 10vh;
 	box-shadow: $shadow;
+	z-index: 0;
+}
+
+.key {
+	position: relative;
+	background-color: #DFA0A0;
+	width: 9vw;
+	height: 30vh;
+	z-index:1l
+}
+
+/** Individual keys */
+
+#one {
+	top: 20vh;
+	left: 5vw;
+}
+
+#two {
+	top: -10vh;
+	left: 15vw;
+}
+
+#three {
+	top: -40vh;
+	left: 25vw;
+}
+
+#four {
+	top: -70vh;
+	left: 35vw;
+}
+
+#five {
+	top: -100vh;
+	left: 45vw;
+}
+
+#six {
+	top: -130vh;
+	left: 55vw;
+}
+
+#seven {
+	top: -160vh;
+	left: 65vw;
+}
+
+#eight {
+	top: -190vh;
+	left: 75vw;
 }
