@@ -1,6 +1,6 @@
-# Project Template
+# ScriptSynth
 
-Blank project for web apps
+Web based synthesizer.
 
 ## Contents
 
