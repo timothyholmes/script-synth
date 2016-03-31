@@ -1,21 +1,21 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "main": "",
+  "name": "ScriptSynth",
+  "version": "1.0.0",
+  "description": "Web Based Synthesizer",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/timothyholmes/script-synth.git"
   },
   "author": "Tim Holmes",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/timothyholmes/script-synth/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/timothyholmes/script-synth",
   "devDependencies": {
     "del": "^2.2.0",
     "es6-promise": "^3.1.2",
