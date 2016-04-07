@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en' data-ng-app='thScriptSynth'>
 	<head>
-	    <meta charset="UTF-8">
-	    <meta name="viewport" content="width=device-width" />
+	    <meta charset='UTF-8'>
+	    <meta name='viewport' content='width=device-width' />
 	    
 	    <title></title>
 
@@ -17,35 +17,14 @@
 			ScriptSynth
 		</header>
 
-		<ul class="set">
-		  	<li class="white b"></li>
-		  	<li class="black as"></li>
-		  	<li class="white a"></li>
-		  	<li class="black gs"></li>
-		  	<li class="white g"></li>
-		  	<li class="black fs"></li>
-		  	<li class="white f"></li>
-		  	<li class="white e"></li>
-		  	<li class="black ds"></li>
-			<li class="white d"></li>
-			<li class="black cs"></li>
-			<li class="white c"></li>
-		  	<li class="white b"></li>
-		  	<li class="black as"></li>
-		  	<li class="white a"></li>
-		  	<li class="black gs"></li>
-		  	<li class="white g"></li>
-		  	<li class="black fs"></li>
-		  	<li class="white f"></li>
-		  	<li class="white e"></li>
-		  	<li class="black ds"></li>
-			<li class="white d"></li>
-			<li class="black cs"></li>
-			<li class="white c"></li>
-		</ul>
+		<th-synth></th-synth>
+
+		<!-- Components -->
+        <script src='./components/angular.min.js' type='text/javascript'></script>
 
 		<!--build:js js/main.min.js -->
-        <script src="./js/app.js" type="text/javascript"></script>
+        <script src='./js/app.js' type='text/javascript'></script>
+        <script src='./js/synth.js' type='text/javascript'></script>
         <!-- endbuild -->
 	</body>
 </html>
