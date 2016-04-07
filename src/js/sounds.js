@@ -26,5 +26,5 @@ Key.prototype.trigger = function(time) {
 	_this.gain.gain.exponentialRampToValueAtTime(0.01, time + 0.3);
 
 	_this.osc.start(time);
-	_this.osc.stop(time + 0.5);
+	_this.osc.stop(time + 0.75);
 };
