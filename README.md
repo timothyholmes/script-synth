@@ -48,3 +48,10 @@ Watch Sass for changes
 ```shell
 gulp watch
 ```
+
+## Credits
+
+I used a HTML/CSS from code pen for the piano, with some modification. The point of this project is more focused on using the Web Audio API, and not building things with CSS. Philip's piano looks exactly like what I envisioned, so I thank him for making that public.
+
+[Philip Zastrow on Codepen](http://codepen.io/zastrow/)
+[CSS Piano](http://codepen.io/zastrow/pen/oDBki)
