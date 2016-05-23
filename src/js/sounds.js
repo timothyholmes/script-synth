@@ -3,7 +3,7 @@ function Key(context, frequency) {
 
 	_this.context = context;
 	_this.frequency = frequency;
-};
+}
 
 Key.prototype.setup = function() {
 	var _this = this;
@@ -11,7 +11,7 @@ Key.prototype.setup = function() {
 	_this.osc = _this.context.createOscillator();
 	_this.gain = _this.context.createGain();
 	_this.osc.connect(_this.gain);
-	_this.gain.connect(_this.context.destination)
+	_this.gain.connect(_this.context.destination);
 };
 
 Key.prototype.trigger = function(time) {

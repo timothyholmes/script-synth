@@ -18,7 +18,7 @@
 			lowcs: new Key(context, 138.59),
 			lowd: new Key(context, 146.83),
 			lowds: new Key(context, 155.56),
-			lowe: new Key(context, 164.81),			
+			lowe: new Key(context, 164.81),
 			highf: new Key(context, 174.61),
 			highfs: new Key(context, 185.00),
 			highg: new Key(context, 196.00),
@@ -31,11 +31,11 @@
 			highd: new Key(context, 293.66),
 			highds: new Key(context, 311.13),
 			highe: new Key(context, 329.63)
-		}
-		
+		};
+
 		_this.playSound = function(type) {
 			keyBoard[type].trigger(context.currentTime);
-		}
+		};
 	}])
 
 	.directive('thSynth', function () {
@@ -47,6 +47,6 @@
 		};
 
 		return directiveDefinitionObject;
-		
+
 	});
 })();
