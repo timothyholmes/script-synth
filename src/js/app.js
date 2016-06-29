@@ -1,10 +1,6 @@
 (function(){
+    'use strict';
 
-	/**
-	* thScriptSynth Module
-	*
-	* Description
-	*/
-	angular.module('thScriptSynth', []);
+    angular.module('thScriptSynth', []);
 
 })();
